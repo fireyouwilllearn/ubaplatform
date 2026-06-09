@@ -1,0 +1,25 @@
+import type { NavItem } from './types/domain';
+
+export const navigation: NavItem[] = [
+  { id: 'dashboard', label: 'Home', path: '/', kicker: 'Office', accent: 'from-uba-blue-light to-uba-blue' },
+  { id: 'schedule', label: 'Schedule', path: '/schedule', kicker: 'Games', accent: 'from-uba-blue-light to-uba-gold' },
+  { id: 'standings', label: 'Standings', path: '/standings', kicker: 'Table', accent: 'from-uba-gold to-uba-blue' },
+  { id: 'myPlayer', label: 'My Player', path: '/my-player', kicker: 'Build hub', accent: 'from-uba-blue-light to-uba-blue' },
+  { id: 'playerProfile', label: 'Profile', path: '/player-profile', kicker: 'Public card', accent: 'from-uba-gold-light to-uba-gold-dark' },
+  { id: 'teams', label: 'Teams', path: '/teams', kicker: 'Rosters', accent: 'from-uba-blue-light to-uba-blue' },
+  { id: 'leaderboard', label: 'Players', path: '/leaderboard', kicker: 'Rankings', accent: 'from-uba-blue-light to-uba-gold' },
+  { id: 'playerStats', label: 'Stats', path: '/stats', kicker: 'S3', accent: 'from-uba-gold to-uba-blue' },
+  { id: 'teamIdentity', label: 'Identity', path: '/team-identity', kicker: 'Brands', accent: 'from-uba-gold-light to-uba-blue' },
+  { id: 'trades', label: 'Trades', path: '/trades', kicker: 'Proposals', accent: 'from-uba-gold-light to-uba-gold-dark' },
+  { id: 'freeAgency', label: 'Free Agency', path: '/free-agency', kicker: 'Market', accent: 'from-uba-blue-light to-uba-gold' },
+  { id: 'salaryCap', label: 'Salary Cap', path: '/salary-cap', kicker: 'Finances', accent: 'from-uba-blue-light to-uba-gold' },
+  { id: 'rosterManagement', label: 'Rosters', path: '/roster-management', kicker: 'Admin', accent: 'from-uba-gold to-uba-blue' },
+  { id: 'injuries', label: 'Injuries', path: '/injuries', kicker: 'Health', accent: 'from-uba-gold-light to-uba-gold-dark' },
+  { id: 'importReview', label: 'Import', path: '/import-review', kicker: 'Review', accent: 'from-uba-blue-light to-uba-gold' },
+  { id: 'announcements', label: 'News', path: '/announcements', kicker: 'Wire', accent: 'from-uba-gold-light to-uba-blue' },
+  { id: 'league', label: 'League', path: '/league', kicker: 'Rules', accent: 'from-uba-gold-light to-uba-gold-dark' },
+  { id: 'notifications', label: 'Alerts', path: '/notifications', kicker: 'Feed', accent: 'from-uba-blue-light to-uba-blue' },
+  { id: 'calculator', label: 'Calculator', path: '/calculator', kicker: 'Detached', accent: 'from-uba-blue-light to-uba-gold' },
+  { id: 'admin', label: 'Admin', path: '/admin', kicker: 'Ops', accent: 'from-uba-gold to-uba-blue' },
+  { id: 'settings', label: 'Settings', path: '/settings', kicker: 'System', accent: 'from-uba-blue-light to-uba-blue' },
+];

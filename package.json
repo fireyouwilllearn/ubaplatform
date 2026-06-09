@@ -1,0 +1,32 @@
+{
+  "name": "uba-platform",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "sheets:sync": "node -r dotenv/config scripts/sync-team-sheets.mjs dotenv_config_path=.env.local",
+    "sheets:sync:write": "node -r dotenv/config scripts/sync-team-sheets.mjs --write dotenv_config_path=.env.local",
+    "doctor": "npx react-doctor@latest"
+  },
+  "description": "UBA league platform foundation built with React, Vite, Tailwind CSS, and React Router.",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.106.2",
+    "@tailwindcss/vite": "^4.3.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-router": "^7.15.1",
+    "tailwindcss": "^4.3.0",
+    "ws": "^8.21.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
+    "dotenv": "^17.4.2",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.14"
+  }
+}
